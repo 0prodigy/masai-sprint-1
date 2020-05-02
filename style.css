@@ -14,6 +14,10 @@ body {
 }
 .header {
   padding: 20px;
+  position: relative;
+  background: var(--main-bg);
+}
+.index-header {
   position: absolute;
 }
 .nav {
@@ -30,7 +34,7 @@ body {
   font-size: 1.4em;
   transition: all 0.5;
 }
-.active {
+.nav .active {
   border-bottom: 2px solid #5f5f5f;
   color: #00608b;
 }
@@ -198,7 +202,55 @@ body {
   padding: 30px;
   text-align: center;
 }
-
+.s-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.breadcrumb {
+  background-color: #fff;
+  background-image: url("https://cdn.dribbble.com/users/3190503/screenshots/6718988/sponge__2x.png");
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: -120px;
+  position: relative;
+}
+.breadcrumb-title h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-shadow: 10px 10px 10px #000;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 5rem;
+}
+.about {
+  margin: 20px 0px;
+  padding: 30px 10px;
+  background: #f28300;
+  border-radius: 20px;
+}
+.about-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: #fffffd;
+  font-weight: 800;
+}
+.about-content p {
+  color: #4d4d4d;
+}
+.col-md-4 {
+  flex: 25%;
+  max-width: 25%;
+}
+.col-md-8 {
+  flex: 75%;
+  max-width: 75%;
+}
+.col-md-12 {
+  flex: 100%;
+  max-width: 100%;
+}
 @media (max-width: 600px) {
   .banner {
     display: block;
