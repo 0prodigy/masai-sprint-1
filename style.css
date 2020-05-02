@@ -216,7 +216,7 @@ body {
   background-position-y: -120px;
   position: relative;
 }
-.breadcrumb-title h1 {
+.breadcrumb > .breadcrumb-title h1 {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -232,7 +232,7 @@ body {
   border-radius: 20px;
 }
 .about-content h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
   color: #fffffd;
   font-weight: 800;
@@ -256,8 +256,24 @@ body {
   .container {
     padding: 10px;
   }
+  .content h2 {
+    font-size: 2rem;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .banner-content p {
+    font-size: 1.2rem;
+  }
+  .about-content h1 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 600px) {
+  .nav .navlink {
+    font-size: 1.2rem;
+  }
+
   .banner {
     display: block;
   }
@@ -265,7 +281,7 @@ body {
     min-width: 100%;
   }
   .banner-content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .banner-content {
     background: rgba(249, 235, 77, 0.66);
@@ -291,7 +307,7 @@ body {
   .s-nav {
     flex-flow: column;
   }
-  .breadcrumb-title h1 {
+  .breadcrumb > .breadcrumb-title h1 {
     font-size: 3rem;
   }
 }
