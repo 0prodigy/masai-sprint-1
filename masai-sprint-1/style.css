@@ -30,10 +30,12 @@ body {
   font-size: 1.4em;
 }
 .banner {
-  max-height: 600px;
   padding: 20px;
   display: flex;
   background-color: var(--main-bg);
+  background-image: url("https://i.pinimg.com/564x/55/a1/ff/55a1ff321f772a302cdc9d852a196ac4.jpg");
+  background-position-x: 80%;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 .banner-content {
@@ -54,10 +56,6 @@ body {
   font-family: "Zilla Slab", serif;
   font-weight: 300;
   font-size: 1.6rem;
-}
-.banner-image {
-  margin: 0 auto;
-  margin-top: -100px;
 }
 
 .banner-btn {
@@ -173,4 +171,39 @@ body {
   cursor: pointer;
   background: #00608b;
   color: #fff;
+}
+.footer footer {
+  padding: 30px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .banner {
+    display: block;
+  }
+  .banner-content {
+    min-width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 3rem;
+  }
+  .banner-content {
+    background: rgba(249, 235, 77, 0.66);
+  }
+  .row {
+    display: block;
+  }
+  .col-md-6 {
+    max-width: 100%;
+  }
+  .container {
+    padding: 0 5px;
+  }
+  .gallery-grid {
+    display: block;
+  }
+  .contact-img {
+    min-height: 300px;
+    background-position: center;
+  }
 }
