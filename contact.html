@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gallery SpongeBob</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="header">
+        <nav class="navbar s-nav">
+          <div class="logo">
+            <img
+              src="https://vignette.wikia.nocookie.net/logopedia/images/2/24/SpongeBob_SquarePants_logo.svg/revision/latest/scale-to-width-down/80?cb=20161221002112"
+              alt=""
+            />
+          </div>
+          <ul class="nav">
+            <li><a href="#" class="navlink">Home</a></li>
+            <li><a href="#" class="navlink">About</a></li>
+            <li><a href="#" class="navlink">Gallery</a></li>
+            <li><a href="#" class="navlink active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="breadcrumb">
+        <div class="title breadcrumb-title"><h1>Contact</h1></div>
+      </div>
+      <section class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 contact-img"></div>
+            <div class="col-md-6 contact-address">
+              <form action="" class="contact-form">
+                <div class="form-group">
+                  <div class="col-md-6">
+                    <label for="fname">First Name</label>
+                    <input
+                      type="text"
+                      id="fname"
+                      placeholder="Enter Your First Name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lname">Last Name</label>
+                    <input
+                      type="text"
+                      id="lname"
+                      placeholder="Enter Your Last Name"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-md-6">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Enter Your Email Adress"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone">Phone</label>
+                    <input
+                      type="text"
+                      id="phone"
+                      placeholder="Enter Your Phone Number"
+                    />
+                  </div>
+                </div>
+                <div class="form-group block">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="msg"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Write your message"
+                  ></textarea>
+                </div>
+                <button class="btn wave-effect waves-light contact-btn">
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <footer>
+          <p>
+            &copy; All Right Reserverd. Develope with love by
+            <a href="#">Akash Pathak</a>
+          </p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
