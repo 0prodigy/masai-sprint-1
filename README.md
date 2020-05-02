@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://0prodigy.github.io/masai-sprint-1/)
+[Live Demo Link](https://0prodigy.github.io/masai-sprint-1/index.html)
 
 ## Getting Started
 
