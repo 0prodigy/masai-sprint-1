@@ -19,6 +19,7 @@ body {
 }
 .index-header {
   position: absolute;
+  width: 100%;
 }
 .nav {
   list-style: none;
@@ -251,6 +252,11 @@ body {
   flex: 100%;
   max-width: 100%;
 }
+@media (max-width: 900px) {
+  .container {
+    padding: 10px;
+  }
+}
 @media (max-width: 600px) {
   .banner {
     display: block;
@@ -284,5 +290,8 @@ body {
   }
   .s-nav {
     flex-flow: column;
+  }
+  .breadcrumb-title h1 {
+    font-size: 3rem;
   }
 }
