@@ -28,6 +28,15 @@ body {
   font-weight: 600;
   text-decoration: none;
   font-size: 1.4em;
+  transition: all 0.5;
+}
+.active {
+  border-bottom: 2px solid #5f5f5f;
+  color: #00608b;
+}
+.nav li:hover .navlink {
+  border-bottom: 2px solid #5f5f5f;
+  color: #00608b;
 }
 .banner {
   padding: 20px;
@@ -65,11 +74,19 @@ body {
   display: block;
   border-radius: 50px;
   background-color: #0d7fd4;
+  border: 2px solid #00608b;
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
   text-align: center;
+  transition: all 0.7;
+  box-sizing: border-box;
+}
+.banner-btn:hover {
+  background: transparent;
+  border: 2px solid #00608b;
+  color: #00608b;
 }
 .img-fluid {
   width: 100%;
@@ -171,6 +188,11 @@ body {
   cursor: pointer;
   background: #00608b;
   color: #fff;
+  transition: all 0.5;
+}
+.contact-btn:hover {
+  color: #000;
+  transition: all 0.5;
 }
 .footer footer {
   padding: 30px;
